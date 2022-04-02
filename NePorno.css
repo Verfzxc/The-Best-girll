@@ -1,0 +1,138 @@
+body {
+	background-color: #f1f1f1;
+   color: #0f141e;
+
+	font-size: 20px;
+	font-weight: 200;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}  
+
+ a {
+	 color: rgb(41, 0, 41);
+	 text-decoration: none;
+ }
+
+
+ a:hover {
+	 text-decoration: underline;
+ }
+
+ a:visited {
+	 color: rgb(168, 47, 168);
+ }
+.avatar {
+	width: 300px; height: 500px;
+	border-radius: 7%;
+	box-shadow: 9px -8px 20px rgba(0, 0, 0);
+}
+
+.NeGei p {
+	color: #626872;
+	margin: 0;
+	font-style: italic;
+	/* font-weight: lighter; */
+	letter-spacing: 1.5px;
+	/* word-spacing: 3px ; */
+}
+
+.container {
+	max-width: 60%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+
+/* .social {
+	padding: 10px;
+	border-style:dashed  ;
+} */
+
+.bg-red {
+	background: rgb(221, 135, 135);
+}
+
+.bg-purple {
+	background: rgb(187, 144, 187);
+}
+.card{
+	padding: 10px;
+	margin-bottom: 15px;
+	border-radius: 20px;
+}
+
+.lesen li {
+	margin-bottom: 10px;
+}
+
+.por {
+	width: 100%;
+}
+
+.por td {
+	padding-bottom: 10px;
+}
+
+.dipins h2 {
+  text-align: center;
+}
+
+.form-group label {
+  display: block;
+  font-size: 17px;
+}
+
+.form-group input,
+.form-group textarea {
+	width: 100%;
+	box-sizing: border-box;
+	border: none;
+	background: transparent;
+	border-bottom: 1px solid rgb(92, 91, 91);
+	padding: 10px 0 10px;
+	outline: none;
+}
+
+.raw {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.raw > .form-group {
+	width: 50%;
+}
+
+.raw > .form-group:first-child {
+	margin-right: 40px;
+}
+
+.NeGei {
+	display: flex;
+	margin-bottom: 15px;
+}
+
+@media (max-width: 700px) {
+	.NeGei {
+		text-align: center;
+		display: block;		
+	} 
+}
+
+.NeGui {
+	margin-left: 50px;
+}
+
+.NeGui h4 {
+	margin-bottom: 7px;
+}
+
+.btr {
+	color: black;
+	padding: 10px 15px;
+	background: #f1f1f1; 
+	border: none;
+	cursor: pointer;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btr:hover {
+	opacity: 0.9;
+}
